@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--primaryColor);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    color: var(--lightText);
+    justify-content: space-between;
+    padding: 1.25rem 0;
+    /* py-5 = 5/4 = 1.25rem */
+}
+
+.logo {
+    width: 6rem;
+    /* w-24 = 24/4 = 6rem */
+}
+
+.text {
+    font-size: 0.875rem;
+    /* text-sm = 14px = 0.875rem */
+    text-transform: lowercase;
+    transition: color 0.3s;
+}
+
+.text:hover {
+    color: white;
+}

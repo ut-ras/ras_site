@@ -1,0 +1,45 @@
+{
+    "officers": {
+        "President": {},
+        "Vice President": {},
+        "Secretary": {},
+        "Treasurer": {},
+        "Webmaster": {},
+        "Historian": {},
+        "Public Relations": {}
+    },
+    "leaders": [],
+    "committee_heads": {
+        "demobots_head": {
+            "name": "Jake Tomczesyn",
+            "discord": "4jakers18"
+        },
+        "igvc_head": {
+            "name": "Noah Aguillon",
+            "discord": "scylthren",
+            "email": "naguillon@utexas.edu"
+        },
+        "robomaster_head": {
+            "name": "Eddie Liao",
+            "discord": "_tempo_"
+        },
+        "robotathon_head": {
+            "name": "Yilin Jin",
+            "discord": "tonelicothesavior"
+        },
+        "vexu_head": {
+            "name": "Hasif Shaikh",
+            "discord": "has02"
+        },
+        "corporate_head": {
+            "name": "Grace Li",
+            "discord": "watchycat",
+            "email": "gracewl@utexas.edu"
+        },
+        "fundraising_head": {
+            "name": "Toby Nguyen",
+            "discord": "tguyen",
+            "email": "tan942@utexas.edu"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import url("@/css/colors.css");
+@import url("@/css/fonts.css");
+
+:root {
+    background-color: var(--primaryColor);
+    color: var(--titleColor);
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 125%;
+    letter-spacing: -0.48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 133%;
+}
+
+
+body {
+
+    font-family: var(--FONT-PRIMARY);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.16px;
+}
+
+@media (width > 992px) {}
