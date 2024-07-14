@@ -1,44 +1,62 @@
 import { Link } from "react-router-dom";
 import links from "@/constant/links.json";
 import people from "@/constant/people.json";
+import styles from "@/css/pages/committees/IGVC.module.css";
+import { FaDiscord } from "react-icons/fa6";
+import Card from "@/components/Card";
+import igvc_track from "@/assets/F22IGVC_Track.png";
+import igvc_robot from "@/assets/F22IGVC_Robot.png";
+
 
 export default function IGVC() {
     return (
-        <div>
+        <main>
             <h1>IGVC Committee</h1>
-            <h3><Link target="_blank" to={links.igvc_discord}>Discord</Link></h3>
-            <h4>Committee Head: {people.committee_heads.igvc_head.name} (Discord: {people.committee_heads.igvc_head.discord})</h4>
-
-            <h2> Fall 2024 Meetings: TBD!</h2>
-            <ul>
-
-            </ul>
-
-            <h2> IGVC Competition </h2>
+            <h2>Committee Head: {people.committee_heads.igvc_head.name}</h2>
+            <div className={styles.DiscordLink}>
+                <a href={links.igvc_discord} className={styles.portfolioIcon}>
+                    <FaDiscord size={40} />
+                </a>
+                <h3><Link target="_blank" to={links.igvc_discord}>Discord</Link></h3>
+            </div>
             <p>IGVC is a competitive committee whose objective is to build an autonomous vehicle! It must be able to navigate a football field-sized obstacle course under a time limit. The fastest robot to successfully traverse the course wins a grand prize of $3000.</p>
-            <h2> Our Robot! </h2>
+            <div className={styles.trackImageContainer}><img src={igvc_track} alt="IGVC Track" width="35%" height="auto" className={styles.trackImage} /></div>
+
+            <div className={styles.cards}>
+                <Card title="Fall 2024 Meetings">
+                    <p>To be determined!</p>
+                </Card>
+
+                <Card title="Our Robot!" className={styles.imageInCard}>
+                    <img src={igvc_robot} />
+                </Card>
+            </div>
+
             <h2> Subteams: </h2>
-            <h3> Mechanical </h3>
-            <ul>
-                <li>Desigining, machining, and building the robot to be ready for competition</li>
-                <li>No experience necessary</li>
-            </ul>
-            <h3> Electrical </h3>
-            <ul>
-                <li>Circuit design</li>
-                <li>Control systems</li>
-                <li>Able to interpret circuit schematics/diagrams</li>
-            </ul>
-            <h3> Software </h3>
-            <ul>
-                <li>Autonomous navigation systems</li>
-                <li>LiDAR Sensor</li>
-                <li>GPS</li>
-                <li>Python/C++ Required</li>
-                <li>ROS Library (not required to know, but great if you have experience) </li>
-            </ul>
-            <h2> Get involved! </h2>
-            <p> If you&aposre interested in joining, reach out to me at {people.committee_heads.igvc_head.email}</p>
-        </div>
+            <div className={styles.teamCards}>
+                <Card title="Mechanical">
+                    <ul>
+                        <li>Desigining, machining, and building the robot to be ready for competition</li>
+                        <li>No experience necessary</li>
+                    </ul>
+                </Card>
+                <Card title="Electrical">
+                    <ul>
+                        <li>Circuit design</li>
+                        <li>Control systems</li>
+                        <li>Able to interpret circuit schematics/diagrams</li>
+                    </ul>
+                </Card>
+                <Card title="Software">
+                    <ul>
+                        <li>Autonomous navigation systems</li>
+                        <li>LiDAR Sensor</li>
+                        <li>GPS</li>
+                        <li>Python/C++ Required</li>
+                        <li>ROS Library (not required to know, but great if you have experience) </li>
+                    </ul>
+                </Card>
+            </div>
+        </main>
     );
 }

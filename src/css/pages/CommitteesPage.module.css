@@ -1,0 +1,25 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    flex: 3;
+    padding-right: 35px;
+}
+
+.featureVideo {
+    flex: 5;
+    /* Center child vertically */
+}
+
+@media (width < 1200px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .text {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+}

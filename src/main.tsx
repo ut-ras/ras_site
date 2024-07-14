@@ -26,7 +26,8 @@ import Demobots from "@/components/pages/committees/Demobots";
 import IGVC from "@/components/pages/committees/IGVC";
 import Robomaster from "@/components/pages/committees/Robomaster";
 import Robotathon from "@/components/pages/committees/Robotathon";
-import VexU from "@/components/pages/committees/Vexu";
+import VexU from "@/components/pages/committees/VexU";
+import CommitteePageLayout from "./components/layouts/CommitteePageLayout";
 
 
 
@@ -61,24 +62,29 @@ const router = createBrowserRouter([
         element: <CorporateFundraising />,
       },
       {
-        path: "/committees/demobots",
-        element: <Demobots />,
-      },
-      {
-        path: "/committees/igvc",
-        element: <IGVC />,
-      },
-      {
-        path: "/committees/robomaster",
-        element: <Robomaster />,
-      },
-      {
-        path: "/committees/robotathon",
-        element: <Robotathon />,
-      },
-      {
-        path: "/committees/vexu",
-        element: <VexU />,
+        element: <CommitteePageLayout />,
+        children: [
+          {
+            path: "/committees/demobots",
+            element: <Demobots />,
+          },
+          {
+            path: "/committees/igvc",
+            element: <IGVC />,
+          },
+          {
+            path: "/committees/robomaster",
+            element: <Robomaster />,
+          },
+          {
+            path: "/committees/robotathon",
+            element: <Robotathon />,
+          },
+          {
+            path: "/committees/vexu",
+            element: <VexU />,
+          },
+        ]
       },
       {
         path: "/media",

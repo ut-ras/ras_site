@@ -1,5 +1,7 @@
-export default function Leadership() {
+export default function LeadershipPage() {
     return (
-        <h1> Fall 2024 RAS Officers </h1>)
+        <main>
 
+        </main>
+    )
 }

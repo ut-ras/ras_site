@@ -1,0 +1,9 @@
+.button {
+    background: #d71920;
+    border: 1px solid transparent;
+    text-align: center;
+    color: white;
+    font-family: var(--FONT-PRIMARY);
+    border-radius: 4px;
+    padding: 0.625rem 1rem;
+}

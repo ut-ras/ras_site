@@ -1,0 +1,79 @@
+/* HomePage.module.css */
+.main {
+    padding: 20px;
+}
+
+.imgAndDescription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    flex: 1;
+    max-width: 40%;
+    /* Ensure the image does not exceed the container width */
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 600px;
+    /* Optional: Set a maximum height for the image */
+    object-fit: contain;
+    /* Ensure the image fits within the container */
+    border-radius: 250px;
+}
+
+.mottoDiv {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 40px;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 18px;
+    /* Add some spacing between the image and the text */
+}
+
+h4 {
+    font-size: 33px;
+    line-height: 1.5;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.homeLink {
+    background: #d71920;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 1.625rem 1.4rem;
+    color: white;
+}
+
+a {
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .imgAndDescription {
+        flex-direction: column;
+    }
+
+    .img {
+        max-height: 300px;
+    }
+
+    .mottoDiv {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+}

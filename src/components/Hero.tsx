@@ -34,7 +34,7 @@ const Hero = () => {
             />
           </h2>
           <p className="text-base text-lightText pr-32 font-medium">
-            ...inspires robotics research and aspires to make robotics more accessible to persons of all backgrounds. Since 1997, from our primary residence in UT&aposs Electrical and Computer Engineering department, we have connected undergraduate students from mechanical, electrical, aerospace, computer, and other engineering (and non-engineering) fields. We help students gain practical multi-disciplinary experience in the lab, then demonstrate our abilities at various robotics competitions while promoting robotics via community outreach.
+            ...inspires robotics research and aspires to make robotics more accessible to persons of all backgrounds. Since 1997, from our primary residence in UT's Electrical and Computer Engineering department, we have connected undergraduate students from mechanical, electrical, aerospace, computer, and other engineering (and non-engineering) fields. We help students gain practical multi-disciplinary experience in the lab, then demonstrate our abilities at various robotics competitions while promoting robotics via community outreach.
           </p>
           <Button className="w-40 h-14" />
         </div>

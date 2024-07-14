@@ -1,3 +1,11 @@
+import ImageGallery from "@/components/ImageGallery";
+
 export default function Media() {
-    return <h1> Media - coming soon! </h1>
+    return (
+        <main>
+            Media - coming soon!
+            <ImageGallery />
+
+        </main>
+    );
 }

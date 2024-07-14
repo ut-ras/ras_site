@@ -10,5 +10,5 @@ export default function ErrorPage() {
     if (isRouteErrorResponse(error)) {
         description = `${error.status} ${error.statusText}`;
     }
-    return <div>{description}</div>;
+    return <main>{description}</main>;
 }
