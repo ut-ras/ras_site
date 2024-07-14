@@ -20,7 +20,7 @@ export default function Committees() {
                         <p></p>
                         <ul>
                             <li><Link to="/committees/demobots">Demobots:</Link>  We build robots to show off. RC cars, dancing minibots, and a motorized couch.</li>
-                            <li><Link to="/committees/robotathon">Robotation:</Link> A yearly RAS run and hosted introductory robotics competition.</li>
+                            <li><Link to="/committees/robotathon">Robotathon:</Link> A yearly RAS run and hosted introductory robotics competition.</li>
                             <li><Link to="/committees/corporate-fundraising">Corporate/Fundraising:</Link> We reach out to companies and build connections with them.</li>
                         </ul>
                         Click on the links to learn more about each committee!

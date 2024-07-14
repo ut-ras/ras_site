@@ -17,7 +17,7 @@ const About = () => {
             <li>Demobots</li>
             <li>IGVC</li>
             <li>Robomaster</li>
-            <li>Robotation</li>
+            <li>Robotathon</li>
             <li>VexU</li>
             <li>Corporate/Fundraising</li>
           </ul>
