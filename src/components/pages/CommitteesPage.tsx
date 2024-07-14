@@ -11,16 +11,16 @@ export default function Committees() {
                 <div className={styles.text}>
                     <Card title="RAS currently has 6 active committees. Three of them are competitive:">
                         <ul>
-                            <li><Link to="/committees/demobots">Demobots:</Link>  We build robots to show off. RC cars, dancing minibots, and a motorized couch.</li>
                             <li><Link to="/committees/igvc">IGVC:</Link> Aiming to win the Intelligent Ground Vehicle Competition with our robot, RAS Ranger.</li>
                             <li><Link to="/committees/robomaster">Robomaster:</Link> We build small human controlled robots to compete in an annual competition hosted by DJI.</li>
+                            <li><Link to="/committees/vexu">VexU:</Link> We design, build, and program robots to compete in the Vex U robotics competition</li>
                         </ul>
                     </Card>
                     <Card title="We have 3 non-competitive committees:">
                         <p></p>
                         <ul>
+                            <li><Link to="/committees/demobots">Demobots:</Link>  We build robots to show off. RC cars, dancing minibots, and a motorized couch.</li>
                             <li><Link to="/committees/robotathon">Robotation:</Link> A yearly RAS run and hosted introductory robotics competition.</li>
-                            <li><Link to="/committees/vexu">VexU:</Link> We deisgn, build, and program robots to compete in the Vex U robotics competition</li>
                             <li><Link to="/committees/corporate-fundraising">Corporate/Fundraising:</Link> We reach out to companies and build connections with them.</li>
                         </ul>
                         Click on the links to learn more about each committee!
@@ -42,7 +42,7 @@ export default function Committees() {
                 </div>
             </div>
 
-        </main>)
+        </main>
+    );
 
 }
-// hype video of each committee, explained

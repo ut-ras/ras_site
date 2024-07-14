@@ -4,17 +4,10 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     flex: 1 1 calc(45% - 40px);
-    /* Adjust width and margin */
     margin: 20px;
-    /* max-width: calc(45% - 40px); */
     color: #ffffff;
-    /* White text color */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Center align items horizontally */
 }
 
 .card h4 {
@@ -30,13 +23,14 @@
 .separator {
     width: 90%;
     height: 4px;
-    background-image: linear-gradient(to right, rgba(215, 25, 32, 0), var(--separatorColor), rgba(215, 25, 32, 0));
+    background-image: linear-gradient(to right, rgba(215, 25, 32, 0), #d71920, rgba(215, 25, 32, 0));
     line-height: 0;
     margin-bottom: 2em;
+    text-align: center;
 }
 
 .card p {
-    text-align: left;
+    text-align: center;
     font-weight: 300 !important;
     font-size: 20px;
     color: #ffffff;
@@ -46,4 +40,10 @@
 
 .card ul {
     line-height: 2em;
+}
+
+@media (max-width: 992px) {
+    .card {
+        padding-left: 20px;
+    }
 }

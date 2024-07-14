@@ -8,22 +8,22 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.icon}>
-                <a href={links.ras_discord_link} className={styles.portfolioIcon}>
+                <a href={links.ras_discord_link} target="_blank" className={styles.portfolioIcon}>
                     <FaDiscord size={40} />
                 </a>
             </div>
             <div className={styles.icon}>
-                <a href={links.youtube} className={styles.portfolioIcon}>
+                <a href={links.youtube} target="_blank" className={styles.portfolioIcon}>
                     <FaYoutube size={40} />
                 </a>
             </div>
             <div className={styles.icon}>
-                <a href={links.github} className={styles.portfolioIcon}>
+                <a href={links.github} target="_blank" className={styles.portfolioIcon}>
                     <FaGithub size={40} />
                 </a>
             </div>
             <div className={styles.icon}>
-                <a href={links.instagram} className={styles.portfolioIcon}>
+                <a href={links.instagram} target="_blank" className={styles.portfolioIcon}>
                     <FaInstagram size={40} />
                 </a>
             </div>

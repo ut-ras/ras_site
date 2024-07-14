@@ -6,8 +6,8 @@ export default function Calendar() {
         <main className={styles.main}>
             <h2>Calendar of all upcoming RAS events:</h2>
 
-            <div className="card" style={{ "height": "600px" }}>
-                <iframe src={links.calendar} style={{ "borderWidth": "0" }} width="800" height="600">
+            <div>
+                <iframe src={links.calendar} className={styles.calendar}>
                 </iframe>
             </div>
 

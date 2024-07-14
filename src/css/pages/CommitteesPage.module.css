@@ -1,6 +1,5 @@
 .cards {
     display: flex;
-    flex-direction: row;
 }
 
 .text {
@@ -10,7 +9,6 @@
 
 .featureVideo {
     flex: 5;
-    /* Center child vertically */
 }
 
 @media (width < 1200px) {
@@ -20,6 +18,5 @@
 
     .text {
         padding-right: 0;
-        padding-bottom: 30px;
     }
 }

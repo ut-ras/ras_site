@@ -9,9 +9,9 @@ export default function Demobots() {
     return (
         <main>
             <h1>Demobots</h1>
-            <h2>Committee Head: {people.committee_heads.demobots_head.name}</h2>
+            <h2>Committee Head: {people.committee_heads[0].name}</h2>
             <div className={styles.DiscordLink}>
-                <a href={links.demobots_discord} className={styles.portfolioIcon}>
+                <a href={links.demobots_discord} target="_blank" className={styles.portfolioIcon}>
                     <FaDiscord size={40} />
                 </a>
                 <h3><Link target="_blank" to={links.demobots_discord}>Discord</Link></h3>

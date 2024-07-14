@@ -1,45 +1,274 @@
 {
-    "officers": {
-        "President": {},
-        "Vice President": {},
-        "Secretary": {},
-        "Treasurer": {},
-        "Webmaster": {},
-        "Historian": {},
-        "Public Relations": {}
-    },
-    "leaders": [],
-    "committee_heads": {
-        "demobots_head": {
-            "name": "Jake Tomczesyn",
-            "discord": "4jakers18"
+    "officers": [
+        {
+            "title": "President",
+            "name": "Shreeya Garapaty",
+            "email": "shreeya.garapaty@utexas.edu",
+            "bio": ""
         },
-        "igvc_head": {
+        {
+            "title": "Vice President",
+            "name": "Carolyn Hoang",
+            "email": "carolyn.hoang@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Secretary",
+            "name": "Zaara Bilal",
+            "email": "zbilal@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Treasurer",
+            "name": "Raghav Katta",
+            "email": "raghav.katta@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Corporate Relations",
+            "name": "Grace Li",
+            "email": "gracewl@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Webmaster",
+            "name": "Dhruv Nistala",
+            "email": "dhruv.nistala@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Outreach Coordinator",
+            "name": "Dhruv Bansal",
+            "email": "dhruvbansal@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Fundraising Coordinator",
+            "name": "Toby Nguyen",
+            "email": "tan942@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Special Events Coordinators",
+            "name": "Annie Vu, Linh Tran",
+            "email": "lt25546@utexas.edu",
+            "bio": ""
+        },
+        {
+            "title": "Publicity Coordinator",
+            "name": "Richard Bai",
+            "email": "richard.bai.1@utexas.edu",
+            "bio": ""
+        }
+    ],
+    "leaders": [
+        {
+            "title": "RAS Leader",
+            "name": "Jiwoo Park",
+            "email_name": "no_email",
+            "picture": "Jiwoo_Sp24.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Lakshay Gupta",
+            "email_name": "no_email",
+            "picture": "Lakshay_Sp24.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Wenyu Zhu",
+            "email_name": "no_email",
+            "picture": "F22Wenyu.JPG",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Will Reger",
+            "email_name": "no_email",
+            "picture": "Will_Sp24.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Alana Woodwell-Williams",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Arnav Surjan",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Audrey Labbe",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Caleb Chalmers",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Dylan Zu",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Olyvia Witham",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Roberto Avila",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Tanay Garg",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Tyler Hom",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Karmanyaah Malhotra",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Evan Lai",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Morris Lin",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Brianna Dickson",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Joseph Romero",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Jeffrey Chang",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Arthur Zhang",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Theodore Hubbard",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Runtian Du",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        },
+        {
+            "title": "RAS Leader",
+            "name": "Conner Petru",
+            "email_name": "no_email",
+            "picture": "RAS_Longhorn_Logo.jpg",
+            "bio": ""
+        }
+    ],
+    "committee_heads": [
+        {
+            "title": "Demobots",
+            "name": "Jake Tomczesyn",
+            "discord": "4jakers18",
+            "bio": ""
+        },
+        {
+            "title": "IGVC",
             "name": "Noah Aguillon",
             "discord": "scylthren",
-            "email": "naguillon@utexas.edu"
+            "email": "naguillon@utexas.edu",
+            "bio": ""
         },
-        "robomaster_head": {
+        {
+            "title": "Robomaster",
             "name": "Eddie Liao",
-            "discord": "_tempo_"
+            "discord": "_tempo_",
+            "bio": ""
         },
-        "robotathon_head": {
+        {
+            "title": "Robotathon",
             "name": "Yilin Jin",
-            "discord": "tonelicothesavior"
+            "discord": "tonelicothesavior",
+            "bio": ""
         },
-        "vexu_head": {
+        {
+            "title": "VexU",
             "name": "Hasif Shaikh",
-            "discord": "has02"
+            "discord": "has02",
+            "bio": ""
         },
-        "corporate_head": {
+        {
+            "title": "Corporate",
             "name": "Grace Li",
             "discord": "watchycat",
-            "email": "gracewl@utexas.edu"
+            "email": "gracewl@utexas.edu",
+            "bio": ""
         },
-        "fundraising_head": {
+        {
+            "title": "Fundraising",
             "name": "Toby Nguyen",
             "discord": "tguyen",
-            "email": "tan942@utexas.edu"
+            "email": "tan942@utexas.edu",
+            "bio": ""
         }
-    }
+    ]
 }

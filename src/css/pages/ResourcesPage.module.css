@@ -9,3 +9,7 @@
     width: 100%;
     gap: 20px;
 }
+
+.card {
+    line-height: 3em;
+}

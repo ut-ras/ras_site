@@ -9,26 +9,19 @@ export default function Resources() {
             <h1> Resources </h1>
             <p className={styles.office}>We live in <Link target="_blank" to="https://maps.utexas.edu/buildings/utm/eer">EER</Link> 0.822C; come and say hi!</p>
             <div className={styles.cards}>
-                <Card title="New Members:">
-                    <ul>
-                        <li> <Link target="_blank" to="">RAS Fall 2024 Membership Form</Link> </li>
-                        <li> <Link target="_blank" to="">RAS 2024 Dues</Link> </li>
-                        <li> <Link target="_blank" to="">Safety Waiver</Link> </li>
-                    </ul>
+                <Card title="New Members:" className={styles.card}>
+                    <p><Link target="_blank" to="">RAS Fall 2024 Membership Form</Link></p>
+                    <p><Link target="_blank" to="">RAS 2024 Dues</Link></p>
+                    <p><Link target="_blank" to="">Safety Waiver</Link></p>
                 </Card>
-                <Card title="Stay connected!">
-                    <ul>
-                        <li><Link target="_blank" to="https://www.instagram.com/ut_ieee_ras/?hl=en">Instagram</Link></li>
-                        <li><Link target="_blank" to={links.github}>GitHub</Link></li>
-                    </ul>
-                    <p>Discord:</p>
-                    <ul>
-                        <li><Link target="_blank" to={links.ras_discord_link}>RAS Discord</Link></li>
-                        <li><Link target="_blank" to={links.demobots_discord}> Demobots </Link></li>
-                        <li><Link target="_blank" to={links.igvc_discord}> IGVC </Link></li>
-                        <li><Link target="_blank" to={links.robomaster_discord}> Robomaster </Link></li>
-                        <li><Link target="_blank" to={links.vexu_discord}> VexU </Link></li>
-                    </ul>
+                <Card title="Stay connected!" className={styles.card}>
+                    <p><Link target="_blank" to="https://www.instagram.com/ut_ieee_ras/?hl=en">Instagram</Link></p>
+                    <p><Link target="_blank" to={links.github}>GitHub</Link></p>
+                    <p><Link target="_blank" to={links.ras_discord_link}>RAS Discord</Link></p>
+                    <p><Link target="_blank" to={links.demobots_discord}> Demobots </Link></p>
+                    <p><Link target="_blank" to={links.igvc_discord}> IGVC </Link></p>
+                    <p><Link target="_blank" to={links.robomaster_discord}> Robomaster </Link></p>
+                    <p><Link target="_blank" to={links.vexu_discord}> VexU </Link></p>
                 </Card>
             </div>
 
@@ -45,7 +38,7 @@ export default function Resources() {
             <h2> RAS Constitution: </h2>
             <p>Coming soon!</p> */}
 
-        </main>)
+        </main >)
 }
 // links to learning materials to get started
 // links to GitHub

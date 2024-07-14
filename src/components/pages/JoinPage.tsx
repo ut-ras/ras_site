@@ -14,10 +14,6 @@ import img8 from "@/assets/gallery/Gone_To_Engineering.jpg";
 import img9 from "@/assets/gallery/Micromouse2019.jpg";
 import img10 from "@/assets/gallery/Robotathon2018.jpg";
 
-
-
-
-
 const words = [
     "talk to our leaders!",
     "learn more about our committees!",
@@ -90,7 +86,7 @@ export default function Join() {
                 />
             </div>
             <div className={styles.column}>
-                <ImageGallery className={styles.images} items={images} />
+                <ImageGallery items={images} />
             </div>
         </main>
     );

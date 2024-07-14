@@ -22,7 +22,7 @@ export default function Supporters() {
 
             <h1>Fall 2024 Company Partners</h1>
             <p className={styles.thanks}>We would like to thank our company partners for supporting and collaborating with us. We look forward to continuing to work with you!</p>
-            <p className={styles.thanks}>Please contact our corporate relations officer, {people.committee_heads.corporate_head.name}, at {people.committee_heads.corporate_head.email} if you have any questions or for more information.</p>
+            <p className={styles.thanks}>Please contact our corporate relations officer, {people.committee_heads[5].name}, at {people.committee_heads[5].email} if you have any questions or for more information.</p>
             <Card title="Gold">
                 <div className={styles.partners}>
                     <img className={styles.companyLogo} src={TI_logo} width="70" height="70" />

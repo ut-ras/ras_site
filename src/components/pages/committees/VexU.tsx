@@ -9,9 +9,9 @@ export default function VexU() {
     return (
         <main>
             <h1>VexU Committee</h1>
-            <h2>Committee Head: {people.committee_heads.vexu_head.name}</h2>
+            <h2>Committee Head: {people.committee_heads[4].name}</h2>
             <div className={styles.DiscordLink}>
-                <a href={links.vexu_discord} className={styles.portfolioIcon}>
+                <a href={links.vexu_discord} target="_blank" className={styles.portfolioIcon}>
                     <FaDiscord size={40} />
                 </a>
                 <h3><Link target="_blank" to={links.vexu_discord}>Discord</Link></h3>
@@ -35,7 +35,7 @@ export default function VexU() {
                     </ul>
                 </Card>
                 <Card title="Contact">
-                    <p>For more information, reach out to {people.committee_heads.vexu_head.name} at {people.committee_heads.vexu_head.discord} on Discord. Thanks for reading and we hope to meet you!</p>
+                    <p>For more information, reach out to {people.committee_heads[4].name} at {people.committee_heads[4].discord} on Discord. Thanks for reading and we hope to meet you!</p>
                 </Card>
             </div>
 

@@ -65,7 +65,7 @@ const Header = () => {
                             )}
                         </div>
                     ))}
-                    <Link to="/join" className={styles.homeLink}>Join here!</Link>
+                    <Link to="/join" className={styles.joinLink}>Join here!</Link>
                 </div>
             </div>
         </header>

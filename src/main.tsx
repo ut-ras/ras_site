@@ -15,19 +15,12 @@ import Leadership from "./components/pages/LeadershipPage";
 import Supporters from "./components/pages/SupportersPage";
 import Resources from "./components/pages/ResourcesPage";
 
-import OldLayout from "@/components/pages/reference/OldLayout";
-import OldHome from "@/components/pages/reference/OldHome";
-import OldAbout from "@/components/pages/reference/OldAbout";
-import OldServices from "@/components/pages/reference/OldServices";
-import OldPortfolio from "@/components/pages/reference/OldPortfolioPage";
-import OldContact from "@/components/pages/reference/OldContact";
 import CorporateFundraising from "@/components/pages/committees/CorporateFundraising";
 import Demobots from "@/components/pages/committees/Demobots";
 import IGVC from "@/components/pages/committees/IGVC";
 import Robomaster from "@/components/pages/committees/Robomaster";
 import Robotathon from "@/components/pages/committees/Robotathon";
 import VexU from "@/components/pages/committees/VexU";
-import CommitteePageLayout from "./components/layouts/CommitteePageLayout";
 
 
 
@@ -62,29 +55,24 @@ const router = createBrowserRouter([
         element: <CorporateFundraising />,
       },
       {
-        element: <CommitteePageLayout />,
-        children: [
-          {
-            path: "/committees/demobots",
-            element: <Demobots />,
-          },
-          {
-            path: "/committees/igvc",
-            element: <IGVC />,
-          },
-          {
-            path: "/committees/robomaster",
-            element: <Robomaster />,
-          },
-          {
-            path: "/committees/robotathon",
-            element: <Robotathon />,
-          },
-          {
-            path: "/committees/vexu",
-            element: <VexU />,
-          },
-        ]
+        path: "/committees/demobots",
+        element: <Demobots />,
+      },
+      {
+        path: "/committees/igvc",
+        element: <IGVC />,
+      },
+      {
+        path: "/committees/robomaster",
+        element: <Robomaster />,
+      },
+      {
+        path: "/committees/robotathon",
+        element: <Robotathon />,
+      },
+      {
+        path: "/committees/vexu",
+        element: <VexU />,
       },
       {
         path: "/media",
@@ -107,33 +95,6 @@ const router = createBrowserRouter([
         element: <Resources />,
       },
     ],
-  },
-  {
-    path: "/debug", // NOTE: UNCOMMENT src/components/pages/reference/index.css TO VIEW ORIGINAL STYLE
-    element: <OldLayout />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/debug/",
-        element: <OldHome />,
-      },
-      {
-        path: "/debug/about",
-        element: <OldAbout />,
-      },
-      {
-        path: "/debug/services",
-        element: <OldServices />,
-      },
-      {
-        path: "/debug/portfolio",
-        element: <OldPortfolio />,
-      },
-      {
-        path: "/debug/contact",
-        element: <OldContact />,
-      },
-    ]
   },
 ]);
 

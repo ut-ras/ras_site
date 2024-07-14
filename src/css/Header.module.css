@@ -49,15 +49,15 @@
 }
 
 .navLinkActive {
-    color: var(--red);
+    color: var(--selectLinkColor);
 }
 
 .navLinkInactive {
     color: var(--lightText);
 }
 
-.homeLink {
-    background: #d71920;
+.joinLink {
+    background: var(--buttonColor);
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 0.625rem 0.8rem;
@@ -107,6 +107,10 @@
         right: 0;
         background: rgba(22, 24, 28, 0.9);
         width: 100%;
+        max-height: calc(100vh - 5rem);
+        /* Adjust the height to fit the screen */
+        overflow-y: auto;
+        /* Enable vertical scrolling */
         text-align: center;
     }
 
@@ -115,7 +119,8 @@
     }
 
     .navLink {
-        padding: 1rem 0;
+        padding: 0;
+        margin: 0;
     }
 
     .homeLink {

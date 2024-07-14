@@ -9,7 +9,7 @@ export default function Robotathon() {
     return (
         <main>
             <h1>Robotathon Committee</h1>
-            <h2>Committee Head: {people.committee_heads.robotathon_head.name}</h2>
+            <h2>Committee Head: {people.committee_heads[3].name}</h2>
             <p>Robotathon is a fall semester introductory robotics competition, created and run by the UT IEEE Robotics and Automation Society (RAS). We teach the basics of robotics to those new to the field.</p>
             <p>About 50-100 participants are placed in teams of 4-5 people, assigned a mentor, and helped through designing and building a robot. You’ll then compete amongst your peers for everlasting glory! You can only compete once (no Robotathon veterans, please), but there are many other committees that you can join afterwards.</p>
             <p>Many people get started with robots and RAS by participating in Robotathon. If this isn’t your cup of tea, check out one of our <Link to="/committees">other committees</Link>.</p>
@@ -66,7 +66,7 @@ export default function Robotathon() {
                     <p>Make sure you can attend the Robotathon kickoff meeting and Robotathon itself. As long as your team members can make any particular workshop or checkpoint, you’ll stay caught up. But it’s not nice to ghost your teammates! Make sure you communicate with your team and mentor and meet with them as often as possible!</p>
                 </Card>
                 <Card title="Any further questions about Robotathon or RAS?">
-                    <p>Contact me, {people.committee_heads.robotathon_head.name}, on Discord or visit our office at 0.822C! There’s usually a leader in the office. We are all here to help you out!</p>
+                    <p>Contact me, {people.committee_heads[3].name}, on Discord or visit our office at 0.822C! There’s usually a leader in the office. We are all here to help you out!</p>
                 </Card>
 
             </div>

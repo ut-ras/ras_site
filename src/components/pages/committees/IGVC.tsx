@@ -12,9 +12,9 @@ export default function IGVC() {
     return (
         <main>
             <h1>IGVC Committee</h1>
-            <h2>Committee Head: {people.committee_heads.igvc_head.name}</h2>
+            <h2>Committee Head: {people.committee_heads[1].name}</h2>
             <div className={styles.DiscordLink}>
-                <a href={links.igvc_discord} className={styles.portfolioIcon}>
+                <a href={links.igvc_discord} target="_blank" className={styles.portfolioIcon}>
                     <FaDiscord size={40} />
                 </a>
                 <h3><Link target="_blank" to={links.igvc_discord}>Discord</Link></h3>
