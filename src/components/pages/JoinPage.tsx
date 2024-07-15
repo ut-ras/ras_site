@@ -4,7 +4,6 @@ import { Typewriter } from "react-simple-typewriter";
 import ImageGallery from "react-image-gallery";
 import styles from "@/css/pages/JoinPage.module.css";
 import img1 from "@/assets/gallery/rasbanner2022.png";
-import img2 from "@/assets/gallery/1.jpg";
 import img3 from "@/assets/gallery/2.jpg";
 import img4 from "@/assets/gallery/3.jpg";
 import img5 from "@/assets/gallery/5.jpg";
@@ -25,9 +24,6 @@ const words = [
 const images = [
     {
         original: img1,
-    },
-    {
-        original: img2,
     },
     {
         original: img3,
