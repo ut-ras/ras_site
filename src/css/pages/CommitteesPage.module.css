@@ -3,12 +3,12 @@
 }
 
 .text {
-    flex: 3;
+    flex: 1;
     padding-right: 35px;
 }
 
 .featureVideo {
-    flex: 5;
+    flex: 1;
 }
 
 @media (width < 1200px) {

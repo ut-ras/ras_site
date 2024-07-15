@@ -5,6 +5,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     padding-left: 40px;
+    padding-right: 40px;
     flex: 1 1 calc(45% - 40px);
     /* Adjust width and margin */
     margin: 20px;
