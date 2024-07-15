@@ -17,11 +17,8 @@ npm install
 This will load the repository and install all of the required Node packages.
 
 # Running a local server:
-Run `npm run dev` in your terminal and navigate to `http://localhost:5173/` in your browser to activate the live server.
+Run `npm run dev` in your terminal to activate the live server and navigate to `http://localhost:5173/` in your browser to view the site.
 
-# Building your files for deployment:
-Run `npm run build`. This will build your website into a static site which is available in the `dist` folder.
-
-Modify `index.html` accordingly. After this, you can upload these files the remote server (in this case, it is an Apache server).
-
-Note: the process for deployment is still a work in progress.
+# Deploying your changes:
+Run `./deploy.sh` in your terminal. When prompted, enter your UT EID.
+Alternatively, run `echo [your_ut_eid] | ./deploy.sh` if you don't want to wait for the prompt.
