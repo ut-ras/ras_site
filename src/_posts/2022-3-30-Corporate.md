@@ -3,7 +3,9 @@
 
 Hello everyone!  
 
-This month, the corporate committee worked on planning topics of interests to present in the following semester during corporate events. <!--more--> Preparation involved designating topics to workshops, technical talks, and social events. With the semester nearing an end, preparation for the next semester is crucial. We will be updating the student brochure, corporate packet, and promotional materials such as the banner and business cards. 
+This month, the corporate committee worked on planning topics of interests to present in the following semester during corporate events.
+
+Preparation involved designating topics to workshops, technical talks, and social events. With the semester nearing an end, preparation for the next semester is crucial. We will be updating the student brochure, corporate packet, and promotional materials such as the banner and business cards. 
 
 
 **Fundraising - 40 for Forty:**

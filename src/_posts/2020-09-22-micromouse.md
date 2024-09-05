@@ -1,7 +1,9 @@
 # Micromouse Fall Plans
 ## 2020 - Micromouse
 
-The fall semester has begun, and our micromouse team is hard at work! Even though we're only meeting up online this semester, we're still able to make significant progress on our robot. <!--more--> Our goal for this Fall is to design and code as much as we can without testing. Once the Spring comes along, we'll be able to assemble our PCB and test and tune our code on real hardware! Our hardware team is revising and finalizing the schematic from the spring. They will be determining the final PCB layout, and we'll hopefully get a board out before the end of the fall, ready for assembly in the spring. Our software team has been divided into three parts: Firmware, Algorithm, and GUI.
+The fall semester has begun, and our micromouse team is hard at work! Even though we're only meeting up online this semester, we're still able to make significant progress on our robot.
+
+Our goal for this Fall is to design and code as much as we can without testing. Once the Spring comes along, we'll be able to assemble our PCB and test and tune our code on real hardware! Our hardware team is revising and finalizing the schematic from the spring. They will be determining the final PCB layout, and we'll hopefully get a board out before the end of the fall, ready for assembly in the spring. Our software team has been divided into three parts: Firmware, Algorithm, and GUI.
 
 Our firmware team is switching over and learning how to use Code Composer Studio and TI-RTOS to program the TM4C. They will be writing as much driver code as they can without testing on actual hardware.
 

@@ -1,7 +1,7 @@
 # Demobots Spring Kick-Off!
 ## 2022 - Demobots
 
-A new semester is off to a great start! The Demobots we have been working on this semester include Talons of Acquisition (TOA), Couchbot, Dancebot, and a new addition: A ball-catching-bot (which I’m sure will have a zinger of a name really soon) <!--more-->
+A new semester is off to a great start! The Demobots we have been working on this semester include Talons of Acquisition (TOA), Couchbot, Dancebot, and a new addition: A ball-catching-bot (which I’m sure will have a zinger of a name really soon)
 
 I'll begin with TOA, our claw machine demobot. The mechanical team’s current goals are getting the prototype of the z-axis (the claw) put together so the electrical team can work on wiring the winch and claw-closing mechanism and getting the new design for the arcade casing designed for laser cutting.(seen bellow is a shot of the extremely technical methods the team is using).
 

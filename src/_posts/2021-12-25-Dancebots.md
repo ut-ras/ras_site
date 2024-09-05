@@ -3,7 +3,7 @@
 
 Hello all! 
 
-Just wanted to put out a quick blog post about progress regarding Dancebots for the semester! Progress has been a bit slow as in person activities resume around campus, but we are excited to resume work on this committee for next semester! <!--more-->
+Just wanted to put out a quick blog post about progress regarding Dancebots for the semester! Progress has been a bit slow as in person activities resume around campus, but we are excited to resume work on this committee for next semester!
 
 Most of our work has been on the hardware side, such as checking battery chemistry and parts inventory inside the RAS office. While this doesn’t result in much robot construction, it is necessary given the gap year that has resulted of COVID-19. 
 

@@ -1,7 +1,7 @@
 # Corporate Spring Kick-Off!
 ## 2022 - Corporate
 
-Hello everyone! Welcome to the Corporate Committee’s first Blog post :3 <!--more-->
+Hello everyone! Welcome to the Corporate Committee’s first Blog post :3
 
 
 ### Corporate Committee

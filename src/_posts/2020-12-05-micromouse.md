@@ -1,7 +1,7 @@
 # Micromouse - Semester Recap
 ## 2020 - Micromouse
 
-The fall semester is coming to a close, and we've had such a unique experience with online meetings. Our various teams have learned lots of important skills and tools related to the design process, from Python to network protocols to KiCAD. <!--more-->
+The fall semester is coming to a close, and we've had such a unique experience with online meetings. Our various teams have learned lots of important skills and tools related to the design process, from Python to network protocols to KiCAD.
 
 ![Micromouse CAD.](/src/_posts//blog/2020-12-05-micromouse/micromouse.png)
 

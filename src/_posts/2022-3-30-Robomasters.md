@@ -1,7 +1,7 @@
 # Robomasters 2022 March Blog Post
 ## 2022 March - Robomasters
 
-Wow! Can’t believe it’s already halfway through the semester, and only two months away from competition! We’ve made a lot of progress over the last month on electrical, software, and hardware teams. <!--more-->
+Wow! Can’t believe it’s already halfway through the semester, and only two months away from competition! We’ve made a lot of progress over the last month on electrical, software, and hardware teams.
 
 Electrical/software has switched to using the Taproot library made by UW, which has made programing to the development board much easier. We’ve completed our shooter/agitator code, allowing us to test the prototype. We’re also finishing up on our new chassis program that we are looking forward to testing once the chassis is completed. Our next task is to program the turret and to the interface with robot controls through keyboard and mouse inputs. We are also looking into computer vision software in preparation for next semester. 
 

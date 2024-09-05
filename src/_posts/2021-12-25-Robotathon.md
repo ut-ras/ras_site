@@ -3,7 +3,7 @@
 
 Hello all! 
 
-I am excited to announce that RAS has put on a successful Robotathon Competition! <!--more-->
+I am excited to announce that RAS has put on a successful Robotathon Competition!
 
 ![group photo .](/src/_posts//blog/2021-12-25-robotathon/robotathon-2021.1.jpg)
 
