@@ -1,0 +1,15 @@
+.office {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+.card {
+    line-height: 3em;
+}

@@ -1,0 +1,22 @@
+.cards {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    padding-right: 35px;
+}
+
+.featureVideo {
+    flex: 1;
+}
+
+@media (width < 1200px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .text {
+        padding-right: 0;
+    }
+}

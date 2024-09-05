@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.icon {
+    flex: 1;
+    text-align: center;
+}
