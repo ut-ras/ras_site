@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import Modal from '@/components/Modal';
 import { Col, Container, Row } from 'react-grid-system';
-import styles from "@/css/pages/BlogPage.module.css"
+import styles from "@/css/pages/BlogPage.module.css";
 
 export default function Blog() {
     const [markdownFiles, setMarkdownFiles] = useState([]);
@@ -78,8 +78,7 @@ export default function Blog() {
                                 <a href="" onClick={(e) => {
                                     e.preventDefault();
                                     openModal(file.content)
-                                }
-                                }>
+                                }}>
                                     {file.title}
                                 </a>
                             </td>
@@ -98,7 +97,7 @@ export default function Blog() {
                                     children={selectedMarkdown}
                                     components={{
                                         img: ({ node, ...props }) => (
-                                            <img {...props} style={{ maxWidth: '80%', height: 'auto', display: 'block', margin: '0 auto' }} alt={props.alt} />
+                                            <DynamicImage {...props} />
                                         )
                                     }}
                                 />
@@ -109,4 +108,36 @@ export default function Blog() {
             )}
         </main>
     );
+}
+
+// Create a Vite glob for all images in the blog folder
+const imageModules = import.meta.glob('/src/_posts/blog/**/*.(png|jpg|jpeg|gif|svg)');
+
+function DynamicImage({ src, alt, ...props }) {
+    const [imageSrc, setImageSrc] = useState(null);
+
+    useEffect(() => {
+        const loadImage = async () => {
+            try {
+                // Extract the imgPath after "blog/"
+                const imgPath = src.includes('blog/') ? src.split('blog/')[1] : src;
+
+                // Match the imgPath with the glob
+                const importedImage = imageModules[`/src/_posts/blog/${imgPath}`];
+                if (importedImage) {
+                    const image = await importedImage();
+                    setImageSrc(image.default);
+                } else {
+                    console.error(`Image not found for path: /src/_posts/blog/${imgPath}`);
+                }
+            } catch (error) {
+                console.error("Error loading image:", error);
+                setImageSrc(src); // Fallback to the original source if import fails
+            }
+        };
+
+        loadImage();
+    }, [src]);
+
+    return <img src={imageSrc} alt={alt} style={{ maxWidth: '80%', height: 'auto', display: 'block', margin: '0 auto' }} {...props} />;
 }
