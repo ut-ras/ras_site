@@ -4,13 +4,27 @@ import rehypeRaw from 'rehype-raw';
 import Modal from '@/components/Modal';
 import { Col, Container, Row } from 'react-grid-system';
 import styles from "@/css/pages/BlogPage.module.css";
+import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
-export default function Blog() {
+export default function Blog({ year }: { year: number }) {
     const [markdownFiles, setMarkdownFiles] = useState([]);
     const [selectedMarkdown, setSelectedMarkdown] = useState(null); // Store selected markdown content
     const [isModalOpen, setIsModalOpen] = useState(false); // Modal visibility state
+    const params = useParams();
+    const { "*": splat = "" } = params;
+    const navigate = useNavigate();
+
+
 
     useEffect(() => {
+        if (splat.endsWith('.html')) {
+            const redirTarget = `/${year}/${splat.replace('.html', '')}`;
+            console.log(splat, redirTarget);
+            navigate(redirTarget);
+        }
+        console.log('url changed');
         const importMarkdownFiles = async () => {
             // Use import.meta.glob to import all .md files in the posts folder
             const markdownImports = import.meta.glob('/src/_posts/*.md');
@@ -26,7 +40,8 @@ export default function Blog() {
                 const filename = path.split('/').pop();
 
                 // Extract the date and the slug (e.g., "2015-11-06" and "primavera")
-                const dateAndTitle = filename.replace('.md', '').split('-');
+                const basename = filename.replace('.md', '');
+                const dateAndTitle = basename.split('-');
                 const date = `${dateAndTitle[0]}-${dateAndTitle[1]}-${dateAndTitle[2]}`;
                 const postTitleSlug = dateAndTitle.slice(3).join('-'); // Join the rest as the slug
 
@@ -34,11 +49,14 @@ export default function Blog() {
                 const titleMatch = content.match(/^#\s+(.+)/); // Matches the first markdown title (e.g., "# Blog Title")
                 const title = titleMatch ? titleMatch[1] : postTitleSlug.replace(/-/g, ' '); // Fallback to filename slug if no title
 
+                const link = "/" + basename.replaceAll("-", "/");
                 loadedMarkdowns.push({
                     path,
                     content,
                     title,
-                    date // Store the extracted date
+                    date, // Store the extracted date
+                    basename,
+                    link
                 });
             }
 
@@ -48,6 +66,18 @@ export default function Blog() {
 
         importMarkdownFiles();
     }, []);
+    useEffect(() => {
+
+        let searchName = `${year}-${splat.replaceAll('/', '-')}`;
+        let file = markdownFiles.find(file => file.basename == searchName);
+        if (file == null) {
+            // todo
+            closeModal();
+            console.log("NOT FOUND " + searchName);
+            console.log(year);
+        } else
+            openModal(file.content);
+    }, [year, splat, markdownFiles]);
 
     // Function to handle opening modal with the selected blog content
     const openModal = (markdownContent) => {
@@ -59,6 +89,10 @@ export default function Blog() {
     const closeModal = () => {
         setIsModalOpen(false);
         setSelectedMarkdown(null);
+    };
+
+    const closeModalHandler = () => {
+        return navigate("/blog");
     };
 
     return (
@@ -76,12 +110,7 @@ export default function Blog() {
                         <tr key={index}>
                             <td>{file.date}</td>
                             <td>
-                                <a href="" onClick={(e) => {
-                                    e.preventDefault();
-                                    openModal(file.content)
-                                }}>
-                                    {file.title}
-                                </a>
+                                <Link to={file.link}>{file.title}</Link>
                             </td>
                         </tr>
                     ))}
@@ -93,7 +122,7 @@ export default function Blog() {
                 <Container>
                     <Row>
                         <Col>
-                            <Modal isOpen={isModalOpen} onClose={closeModal}>
+                            <Modal isOpen={isModalOpen} onClose={closeModalHandler}>
                                 <ReactMarkdown
                                     children={selectedMarkdown}
                                     components={{
@@ -101,7 +130,7 @@ export default function Blog() {
                                             <DynamicImage {...props} />
                                         )
                                     }}
-				    rehypePlugins={[rehypeRaw]}
+                                    rehypePlugins={[rehypeRaw]}
                                 />
                             </Modal>
                         </Col>
