@@ -10,9 +10,9 @@ export default function Resources() {
             <p className={styles.office}>We live in <Link target="_blank" to="https://maps.utexas.edu/buildings/utm/eer">EER</Link> 0.822C; come and say hi!</p>
             <div className={styles.cards}>
                 <Card title="New Members:" className={styles.card}>
-                    <p><Link target="_blank" to="">RAS Fall 2024 Membership Form</Link></p>
+                    <p><Link target="_blank" to={links.membership_form}>RAS Fall 2024 Membership Form</Link></p>
                     <p><Link target="_blank" to="">RAS 2024 Dues</Link></p>
-                    <p><Link target="_blank" to="">Safety Waiver</Link></p>
+                    <p><Link target="_blank" to={links.safety_waiver}>Safety Waiver</Link></p>
                 </Card>
                 <Card title="Stay connected!" className={styles.card}>
                     <p><Link target="_blank" to="https://www.instagram.com/ut_ieee_ras/?hl=en">Instagram</Link></p>

@@ -57,7 +57,7 @@ export default function Join() {
             <div className={styles.text}>
                 <h1> Join here!</h1>
                 <p> New members can join at <b>any</b> time. <b>No experience</b> necessary! </p>
-                <p>New members should fill the following forms: <Link target="_blank" to=""> Membership Form</Link>, <Link target="_blank" to=""> Dues</Link>, and <Link target="_blank" to=""> Safety Waiver </Link>(coming soon).</p>
+                <p>New members should fill the following forms: <Link target="_blank" to={links.membership_form}> Membership Form</Link>, <Link target="_blank" to=""> Dues (coming soon)</Link>, and <Link target="_blank" to={links.safety_waiver}> Safety Waiver </Link>(coming soon).</p>
                 <h2> Discord Links: </h2>
                 <div>
                     Join the RAS Discord <Link target="_blank" to={links.ras_discord_link}>here</Link>!
