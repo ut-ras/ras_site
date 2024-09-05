@@ -1,0 +1,25 @@
+.blogTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.blogTable th,
+.blogTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #bf5701;
+}
+
+.blogTable th {
+    font-weight: bold;
+}
+
+.blogTable a:hover {
+    text-decoration: underline;
+}
+
+.blogTable tr:hover {
+    background-color: #867661;
+}
