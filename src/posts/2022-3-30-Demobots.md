@@ -1,12 +1,8 @@
----
-layout: post
-title: Demobots 2022 March Blog Post
-imagepath: resources/blog/2022-3-30-Demobots
-shorttitle: 2022 March - Demobots
-excerpt_separator: <!--more-->
----
+# Demobots 2022 March Blog Post
+## imagepath: resources/blog/2022-3-30-Demobots
+## 2022 March - Demobots
 
-Spring is in the air, and with it comes the sweet smell of robots in the morning! Demobots has been making steady progress this semester towards it’s yearly goals. <!--more-->
+Spring is in the air, and with it comes the sweet smell of robots in the morning! Demobots has been making steady progress this semester towards it’s yearly goals.
 
 In TOA (talons of acquisition) the mechanical team has decided to redesign it’s claw to opt for a two pronged system that can be laser cut and mounted much more quickly that the previous three-pronged iteration which had to be 3D printed and faced issues with interlocking parts for mounting. This design change will shift from relying on an additional pully mechanism attached to springs in the claw housing (which are prone to snapping and fatigue) and instead use a gear like system which will be much more stable. 
 

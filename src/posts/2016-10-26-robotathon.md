@@ -1,9 +1,6 @@
----
-layout: post
-imagepath: static/images
-title: Robotathon 2016
-shorttitle: 2016 - Robotathon
----
+## imagepath: static/images
+# Robotathon 2016
+## 2016 - Robotathon
 
 Robotathon is a UT-hosted robotics competition targeted towards incoming freshmen, transfer students, and anyone else interested in learning about robots.
 

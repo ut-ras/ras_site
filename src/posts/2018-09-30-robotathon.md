@@ -1,9 +1,6 @@
----
-layout: post
-title: Robotathon Hath Begun!
-shorttitle: 2018 - Robotathon
-imagepath: resources/blog/2018-09-30-robotathon
----
+# Robotathon Hath Begun!
+## 2018 - Robotathon
+## imagepath: resources/blog/2018-09-30-robotathon
 
 Robotathon has begun and teams are off to a running start.
 

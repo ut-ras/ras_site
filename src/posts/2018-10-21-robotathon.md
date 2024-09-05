@@ -1,9 +1,6 @@
----
-layout: post
-title: The Robotathon Strikes Back
-imagepath: resources/blog/2018-10-21-robotathon
-shorttitle: 2018 - Robotathon
----
+# The Robotathon Strikes Back
+## imagepath: resources/blog/2018-10-21-robotathon
+## 2018 - Robotathon
 
 Robotathon is coming. Are you ready?
 

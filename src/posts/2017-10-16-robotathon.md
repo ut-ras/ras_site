@@ -1,8 +1,5 @@
----
-layout: post
-title: Robotathon
-shorttitle: 2017 - Robotathon
----
+# Robotathon
+## 2017 - Robotathon
 
 Robotathon is a semester long competition that is largely geared towards students with little to no experience in robotics.
 

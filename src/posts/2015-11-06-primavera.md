@@ -1,9 +1,6 @@
----
-layout: post
-imagepath: resources/blog/2015-11-06-primavera
-title: Primavera
-shorttitle: 2015 - Primavera
----
+## imagepath: resources/blog/2015-11-06-primavera
+# Primavera
+## 2015 - Primavera
 
 Primavera is the image processing component of the painting robot project RAS in
 involved in, called Robotticelli.
@@ -15,7 +12,7 @@ take you through our process, but first a quick introduction to Robotticelli.
 ### Robotticelli
 
 Joe Kristofoletti, an Austin artist was engaged by the
-[<span class="bodyLink">Drawing Lines</span>][drawinglines] project to do
+[Drawing Lines][drawinglines] project to do
 something interesting.  But he was feeling lazy, and since we're in the age of
 robots, he asked us to make a robot to do it for him.  So our challenge: build a
 robot that, given an image, spray paints it on the side of a roughly 5-story
@@ -39,8 +36,8 @@ algorithms using kmeans to identify the best colors of spray paint to create a
 particular image.
 
 We use Python, 
-[<span class="bodyLink">scikit-learn</span>][sklearn], and
-[<span class="bodyLink">OpenCV</span>][opencv]
+[scikit-learn][sklearn], and
+[OpenCV][opencv]
 to quantize the image and select the best colors of spray paint available.
 
 [sklearn]: http://scikit-learn.org/stable/index.html
@@ -49,7 +46,7 @@ to quantize the image and select the best colors of spray paint available.
 #### First iteration: KMeans for clustering
 
 We found this
-[<span class="bodyLink">example</span>][sklearn_example]
+[example][sklearn_example]
 on the scikit-learn website very helpful.  It uses KMeans, a machine learning
 algorithm, to cluster pixels into groups based on similarity.  An image that is
 comprised of three shades of red and one shade of blue would be reduced to one,
@@ -164,7 +161,7 @@ list(names[centers_to_db])
      u'Fjord']
 
 
-![Before]({{ site.baseurl }}/{{ page.imagepath }}/frog.jpg)
+![Before](blog/2015-11-06-primavera/frog.jpg)
 ![After]({{ site.baseurl }}/{{ page.imagepath }}/out-database.png)
 
 The core of the conversion is the same; there's just a step before and after
@@ -181,7 +178,7 @@ are many options of varying cleverness and efficiency.
 
 We implement Floyd-Steinberg (error-based) dithering and ordered dithering. The
 code for these can be found on our
-[<span class="bodyLink">GitHub repository</span>][github_primavera].
+[GitHub repository][github_primavera].
 We're still experimenting with various dithering algorithms, so if you have any
 ideas, feel free to open a GitHub issue!
 

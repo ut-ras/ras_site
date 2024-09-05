@@ -1,9 +1,6 @@
----
-layout: post
-title: Micromouse - Gearing up for competition (Part 2)
-imagepath: resources/blog/2019-04-23-micromouse
-shorttitle: 2019 - Micromouse
----
+# Micromouse - Gearing up for competition (Part 2)
+## imagepath: resources/blog/2019-04-23-micromouse
+## 2019 - Micromouse
 
 Over the past couple of weeks, micromouse has been getting ready to build their prototype robot. The printed circuit board was ordered, and all of the parts required have been shipped. Once the PCB arrives, we will build the robot, and improve our control algorithms.
 

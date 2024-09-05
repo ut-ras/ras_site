@@ -1,8 +1,5 @@
----
-layout: post
-title: Year in Review
-shorttitle: 2015 - Year in Review
----
+# Year in Review
+## 2015 - Year in Review
 
 The University of Texas at Austin chapter of the IEEE Robotics and Automation
 Society serves a diverse community of students consisting primarily of
@@ -29,7 +26,7 @@ more teams competing and completing the challenge then ever before.
 The Mercury Robotics Competition, hosted by Oklahoma State University, tests
 competitors skills in the areas of wireless communication and autonomous
 driving. In 2015, the University of Texas Robotics and Automation Society won
-the Best Video Presentation Award for [<span class="bodyLink">a video production highlighting the organization's entry for the competition</span>](https://www.youtube.com/watch?v=QIHHMD3rOR0).
+the Best Video Presentation Award for [a video production highlighting the organization's entry for the competition](https://www.youtube.com/watch?v=QIHHMD3rOR0).
 
 ### Region 5
 Region 5 Robotics went to New Orleans in April for the 2015 competition. Going

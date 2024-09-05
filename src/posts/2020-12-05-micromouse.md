@@ -1,12 +1,8 @@
----
-layout: post
-title: Micromouse - Semester Recap
-imagepath: resources/blog/2020-12-05-micromouse
-shorttitle: 2020 - Micromouse
-excerpt_separator: <!--more-->
----
+# Micromouse - Semester Recap
+## imagepath: resources/blog/2020-12-05-micromouse
+## 2020 - Micromouse
 
-The fall semester is coming to a close, and we've had such a unique experience with online meetings. Our various teams have learned lots of important skills and tools related to the design process, from Python to network protocols to KiCAD. <!--more-->
+The fall semester is coming to a close, and we've had such a unique experience with online meetings. Our various teams have learned lots of important skills and tools related to the design process, from Python to network protocols to KiCAD.
 
 ![Micromouse CAD.]({{ site.baseurl }}/{{ page.imagepath }}/micromouse.png)
 

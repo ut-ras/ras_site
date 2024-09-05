@@ -1,14 +1,10 @@
----
-layout: post
-title: Robotathon 2021 Wrap-Up!
-imagepath: resources/blog/2021-12-25-robotathon
-shorttitle: 2021 - Robotathon
-excerpt_separator: <!--more-->
----
+# Robotathon 2021 Wrap-Up!
+## imagepath: resources/blog/2021-12-25-robotathon
+## 2021 - Robotathon
 
 Hello all! 
 
-I am excited to announce that RAS has put on a successful Robotathon Competition! <!--more-->
+I am excited to announce that RAS has put on a successful Robotathon Competition!
 
 ![group photo .]({{ site.baseurl }}/{{ page.imagepath }}/robotathon-2021.1.jpg)
 

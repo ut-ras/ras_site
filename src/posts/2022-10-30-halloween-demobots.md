@@ -1,14 +1,10 @@
----
-layout: post
-title: Fall 2022 Halloween Demobots!
-imagepath: resources/about/robotathon/2021
-shorttitle: 2022 Halloween - Demobots
-excerpt_separator: <!--more-->
----
+# Fall 2022 Halloween Demobots!
+## imagepath: resources/about/robotathon/2021
+## 2022 Halloween - Demobots
 
 Demobots Blog Post – 10/30 
 
-Happy Halloween! Can you believe we’re already halfway done with the semester? This semester in Demobots a lot has happened so here’s a brief update on each of our beautiful sub committees: <!--more-->
+Happy Halloween! Can you believe we’re already halfway done with the semester? This semester in Demobots a lot has happened so here’s a brief update on each of our beautiful sub committees:
 
 Dancebot: Dancebot has been redesigning the Dancebot to use fewer servos for a sleeker, more efficient design. This includes updates on software, the types of dances that can be programed for it to perform, and the CAD models and analysis. 
 

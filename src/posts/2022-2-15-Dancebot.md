@@ -1,14 +1,12 @@
----
-layout: post
-title: Dancebots Spring Kick-Off!
-imagepath: resources/blog/2022-2-15-Dancebot
-shorttitle: 2022 - Dancebots
-excerpt_separator: <!--more-->
----
+# Dancebots Spring Kick-Off!
+## imagepath: resources/blog/2022-2-15-Dancebot
+## 2022 - Dancebots
 
 Hello everyone! 
 
-Just wanted to provide a quick update on behalf of Dancebot! We had a first successful meeting of the semester and can’t wait to get started on making some progress with mothership! <!--more--> We are focusing on essential hardware systems, mainly getting our motors to move in a controlled manner with our existing software. Since we had new members, we are currently focused on skill development to ensure everyone has the fundamentals they need. 
+Just wanted to provide a quick update on behalf of Dancebot! We had a first successful meeting of the semester and can’t wait to get started on making some progress with mothership!
+
+ We are focusing on essential hardware systems, mainly getting our motors to move in a controlled manner with our existing software. Since we had new members, we are currently focused on skill development to ensure everyone has the fundamentals they need. 
 
 ![circuit .]({{ site.baseurl }}/{{ page.imagepath }}/Dancebot2.22.JPG)
 

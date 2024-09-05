@@ -1,14 +1,10 @@
----
-layout: post
-title: Fall 2022 Robotathon Launch!
-imagepath: resources/about/robotathon/2021
-shorttitle: 2022 March - Robomasters
-excerpt_separator: <!--more-->
----
+# Fall 2022 Robotathon Launch!
+## imagepath: resources/about/robotathon/2021
+## 2022 March - Robomasters
 
 Hi everyone!
 
-I hope you are all having a great start to the semester. I wanted to update you all on our Robotathon 2022 competition. We had our kickoff on Monday, September 12th and it was a huge success with about 80 students signing up this year! <!--more-->
+I hope you are all having a great start to the semester. I wanted to update you all on our Robotathon 2022 competition. We had our kickoff on Monday, September 12th and it was a huge success with about 80 students signing up this year!
 
 Here is a picture of all the Raslets who came to Kickoff:
 

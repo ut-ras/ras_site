@@ -1,9 +1,6 @@
----
-layout: post
-title: Technical Blog Post - Designing a Software Filter
-imagepath: resources/blog/2020-09-20-technical
-shorttitle: 2020 - Technical
----
+# Technical Blog Post - Designing a Software Filter
+## imagepath: resources/blog/2020-09-20-technical
+## 2020 - Technical
 
 ## Table of Contents
 
@@ -397,6 +394,3 @@ This is the end of the sensor filter development tutorial. Hopefully what you sh
 This might be the first in a series of technical blog posts, so any feedback
 for future posts are greatly appreciated!
 
----
-
-Author: Matthew Yu

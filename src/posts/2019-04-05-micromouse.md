@@ -1,9 +1,6 @@
----
-layout: post
-title: Micromouse - Gearing up for competition
-imagepath: resources/blog/2019-04-05-micromouse
-shorttitle: 2019 - Micromouse
----
+# Micromouse - Gearing up for competition
+## imagepath: resources/blog/2019-04-05-micromouse
+## 2019 - Micromouse
 
 Micromouse is getting ready for the final stretch now. We are working on updating our PCB and software to get the mouse ready for the competition.
 

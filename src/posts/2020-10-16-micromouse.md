@@ -1,12 +1,10 @@
----
-layout: post
-title: Micromouse October Update
-imagepath: resources/blog/2020-10-16-micromouse
-shorttitle: 2020 - Micromouse
-excerpt_separator: <!--more-->
----
+# Micromouse October Update
+## imagepath: resources/blog/2020-10-16-micromouse
+## 2020 - Micromouse
 
-After making a few minor but critical edits, our hardware team has finalized our schematic design and is starting PCB layout. <!--more--> One of the things we had to make sure to test was the infrared wall sensor circuit. Because we're working remote, we had to order parts to a member of the hardware team to put together and test. The circuit works acceptably, and we're looking forward to designing the rest of the micromouse hardware. A big thank you to Gerber Labs for offering to manufacture our PCB for us!
+After making a few minor but critical edits, our hardware team has finalized our schematic design and is starting PCB layout.
+
+One of the things we had to make sure to test was the infrared wall sensor circuit. Because we're working remote, we had to order parts to a member of the hardware team to put together and test. The circuit works acceptably, and we're looking forward to designing the rest of the micromouse hardware. A big thank you to Gerber Labs for offering to manufacture our PCB for us!
 
 Our algorithm team is making significant progress coding the firmware simulator. We've developed the maze generation function and we are finishing up with program interface functions such as wall detection and movement. Using this simulator, we'll be able to efficiently develop and test our micromouse algorithm to determine our decision making.
 

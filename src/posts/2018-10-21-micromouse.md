@@ -1,9 +1,6 @@
----
-layout: post
-title: Micromouse - so it begins
-imagepath: resources/blog/2018-10-21-micromouse
-shorttitle: 2018 - Micromouse
----
+# Micromouse - so it begins
+## imagepath: resources/blog/2018-10-21-micromouse
+## 2018 - Micromouse
 
 RAS is proud to introduce a new committee called micromouse.
 

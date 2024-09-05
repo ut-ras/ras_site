@@ -1,35 +1,14 @@
----
-layout: post
-title: Robotathon Steering Committee - How It's Made Part 2
-imagepath: resources/blog/2020-05-04-robotathon
-shorttitle: 2020 - Robotathon Steering Committee
----
+# Robotathon Steering Committee - How It's Made Part 2
+## imagepath: resources/blog/2020-05-04-robotathon
+## 2020 - Robotathon Steering Committee
 
 Matthew here. This is the last of three posts. In this post, I'll talk about some of the challenges we've faced and will face, and how we plan to tackle them.
 
----
-
-## Field Logistics
-
-A logistics challenge we've faced in previous Robotathons was how to store the field during and after competition. Last year, I kid you not, we bought half inch thick, 8 by 4 feet planks of wood for the field. It was very hard to move around without getting splinters and annoying to setup and disassemble.
-
-This time we've learned our lesson and are using modular foam boards with a smart connection scheme. This will allow us to compactly store our field (sans the structures) in the storage closet.
-
-Another issue was that we would leave the field out in the IEEE commons for extended periods of time. A snap together module field will make the assembling and disassembling process a cinch. An issue might be our centerpiece, the Tower of Power. The ME and ECE students in charge of designing this structure will need to keep in mind a solution that will allow it to drop in place work with minimal effort.
-
----
 
 ## Sourcing Judges
 
 Sourcing judges is a recurrent problem, often due to the fact that Professors or Corporate representatives run on tight, always changing schedules. Usually, we won't know which professors will be able to make the competition until two or three weeks prior.
 
----
-
-## Ordering Parts in a Timely Manner
-
-There are two variables that we want to maximize for this problem. Ordering the minimum amount of parts needed for the teams (optimizing cost) and getting the parts to the teams as soon as we can (optimizing lead time). There's no perfect solution for this, but my current idea is to order parts (plus some spares) based off of the RSVP turnout prior to kickoff. If we have an RSVP open at the beginning of the semester, and keep it open up until the Monday of the week of Kickoff and order immediately, we can probably get the parts 1 or 2 weeks into the competition, right about when the teams finish their second checkpoint, the Design Approval checkpoint.
-
----
 
 ## Encouraging Participation, Increasing Diversity, Building Community
 

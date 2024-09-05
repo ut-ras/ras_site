@@ -1,12 +1,8 @@
----
-layout: post
-title: Corporate Spring Kick-Off!
-imagepath: resources/blog/2022-2-15-Corporate
-shorttitle: 2022 - Corporate
-excerpt_separator: <!--more-->
----
+# Corporate Spring Kick-Off!
+## imagepath: resources/blog/2022-2-15-Corporate
+## 2022 - Corporate
 
-Hello everyone! Welcome to the Corporate Committee’s first Blog post :3 <!--more-->
+Hello everyone! Welcome to the Corporate Committee’s first Blog post :3
 
 
 ### Corporate Committee

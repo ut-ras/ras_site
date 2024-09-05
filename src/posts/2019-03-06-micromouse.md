@@ -1,9 +1,6 @@
----
-layout: post
-title: Micromouse Update
-imagepath: resources/blog/2019-03-06-micromouse
-shorttitle: 2019 - Micromouse
----
+# Micromouse Update
+## imagepath: resources/blog/2019-03-06-micromouse
+## 2019 - Micromouse
 
 This semester started with a bang for micromouse. We worked on building a field, printing a new chassis, and working on a pcb.
 

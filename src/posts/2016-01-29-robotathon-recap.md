@@ -1,9 +1,6 @@
----
-layout: post
-imagepath: resources/blog/2016-01-29-robotathon-recap
-title: Robotathon Recap!
-shorttitle: 2016 - Robotathon
----
+## imagepath: resources/blog/2016-01-29-robotathon-recap
+# Robotathon Recap!
+## 2016 - Robotathon
 
 This year’s Robotathon wrapped up this past November with amazing showings from
 all of our teams.

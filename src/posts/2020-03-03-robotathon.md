@@ -1,9 +1,6 @@
----
-layout: post
-title: Robotathon Steering Committee - Your First Program Update
-imagepath: resources/blog/2020-03-03-robotathon
-shorttitle: 2020 - Robotathon Steering Committee
----
+# Robotathon Steering Committee - Your First Program Update
+## imagepath: resources/blog/2020-03-03-robotathon
+## 2020 - Robotathon Steering Committee
 Hey y'all, this is Matthew, one of the co-heads of Robotathon. This is the first of several updates throughout this semester from our new Robotathon steering committee. We've extended the original Robotathon committee in order to create a more robust and engaging competition.
 Among the goals that we want to complete this semester, we have:
 
