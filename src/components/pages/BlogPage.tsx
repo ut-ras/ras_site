@@ -75,7 +75,11 @@ export default function Blog() {
                         <tr key={index}>
                             <td>{file.date}</td>
                             <td>
-                                <a href="#" onClick={() => openModal(file.content)}>
+                                <a href="#" onClick={(e) => {
+                                    e.preventDefault();
+                                    openModal(file.content)
+                                }
+                                }>
                                     {file.title}
                                 </a>
                             </td>
