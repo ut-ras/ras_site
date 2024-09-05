@@ -23,6 +23,8 @@ import Robotathon from "@/components/pages/committees/Robotathon";
 import VexU from "@/components/pages/committees/VexU";
 
 
+// TODO where do i put utilities
+const range = (start, end) => Array.from({ length: end - start + 1 }, (_, i) => start + i);
 
 const router = createBrowserRouter([
   {
@@ -94,7 +96,8 @@ const router = createBrowserRouter([
         path: "/resources",
         element: <Resources />,
       },
-    ],
+      // because router v6 doesn't support regex, this makes individual routes for every post from 2015 to now (only tested in 2024 as of writing this)
+    ].concat(range(2015, new Date().getFullYear()).map((i) => ({ path: `/${i}/*`, element: <Blog year={i}/> }))),
   },
 ]);
 
