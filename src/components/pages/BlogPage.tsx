@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import Modal from '@/components/Modal';
 import { Col, Container, Row } from 'react-grid-system';
 import styles from "@/css/pages/BlogPage.module.css";
@@ -100,6 +101,7 @@ export default function Blog() {
                                             <DynamicImage {...props} />
                                         )
                                     }}
+				    rehypePlugins={[rehypeRaw]}
                                 />
                             </Modal>
                         </Col>
