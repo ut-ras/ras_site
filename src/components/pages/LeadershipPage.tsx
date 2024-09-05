@@ -11,6 +11,10 @@ import VicePresidentImage from "@/assets/leaders/CarolynS23.jpg";
 import TreasurerImage from "@/assets/leaders/Raghav_Sp24.jpg";
 import WebmasterImage from "@/assets/leaders/Dhruv_Sp2024.jpg";
 import OutreachCoordinatorImage from "@/assets/leaders/Shrub_Sp24.jpg";
+import IGVCImage from '@/assets/leaders/Dhruv_Sp2024.jpg';
+import VexUImage from "@/assets/leaders/F22Hasif.jpg";
+import RobomasterImage from "@/assets/leaders/Eddie_Sp24.jpg";
+import RobotathonImage from "@/assets/leaders/YilinS23.jpg";
 
 function setImage(title: string) {
     return (
@@ -18,7 +22,12 @@ function setImage(title: string) {
             title === "Vice President" ? <img src={VicePresidentImage} /> :
                 title === "Treasurer" ? <img src={TreasurerImage} /> :
                     title === "Webmaster" ? <img src={WebmasterImage} /> :
-                        title === "Outreach Coordinator" ? <img src={OutreachCoordinatorImage} /> : null
+                        title === "Outreach Coordinator" ? <img src={OutreachCoordinatorImage} /> :
+                            title === "IGVC" ? <img src={IGVCImage} /> :
+                                title === "VexU" ? <img src={VexUImage} /> :
+                                    title === "Robomaster" ? <img src={RobomasterImage} /> :
+                                        title === "Robotathon" ? <img src={RobotathonImage} /> : null
+
     );
 }
 
@@ -82,8 +91,9 @@ export default function LeadershipPage() {
             {isLargeScreen ? (
                 <div className={styles.cards}>
                     {people.committee_heads.map(committee_head => (
-                        <ProfileCard key={committee_head.name} title={`${committee_head.name}`}>
+                        <ProfileCard key={committee_head.name} title={`${committee_head.name}`} className={styles.imageInCard}>
                             <p>{committee_head.title}</p>
+                            {setImage(committee_head.title)}
                             <p>Discord: {committee_head.discord}</p>
                             <p>{committee_head.bio}</p>
                         </ProfileCard>
@@ -92,8 +102,9 @@ export default function LeadershipPage() {
             ) : (
                 <Slider {...sliderSettings} className={styles.slider}>
                     {people.committee_heads.map(committee_head => (
-                        <ProfileCard key={committee_head.name} title={`${committee_head.name}`}>
+                        <ProfileCard key={committee_head.name} title={`${committee_head.name}`} className={styles.imageInCard}>
                             <p>{committee_head.title}</p>
+                            {setImage(committee_head.title)}
                             <p>Discord: {committee_head.discord}</p>
                             <p>{committee_head.bio}</p>
                         </ProfileCard>
