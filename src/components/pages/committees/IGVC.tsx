@@ -30,7 +30,7 @@ export default function IGVC() {
 
             <div className={styles.cards}>
                 <Card title="Fall 2024 Meetings">
-                    <p>To be determined!</p>
+                    <p>Fridays 5pm - 6pm</p>
                 </Card>
 
                 <Card title="Our Robot!" className={styles.imageInCard}>

@@ -21,7 +21,7 @@ export default function Demobots() {
             <div className={styles.cards}>
 
                 <Card title="Fall 2024 Meetings">
-                    <p>To be determined!</p>
+                    <p>Weekly on Mondays from 5pm - 7pm</p>
                 </Card>
 
                 <Card title="Current Demobots Projects">

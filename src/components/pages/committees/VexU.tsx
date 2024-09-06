@@ -19,7 +19,7 @@ export default function VexU() {
             <p>Vex U is an international robotics competition where university teams build two robots and compete in a sports-like challenge. More information about this year's challenge can be found <Link target="_blank" to="https://www.youtube.com/watch?v=Sx6HJSpopeQ">here</Link></p>
             <div className={styles.cards}>
                 <Card title="Fall 2024 Meetings">
-                    <p>To be determined!</p>
+                    <p>Sundays 1pm - 6pm in EER</p>
                 </Card>
 
                 <Card title="What we do" className={styles.imageInCard}>
