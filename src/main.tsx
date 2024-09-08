@@ -2,7 +2,7 @@ import "@/css/index.css";
 
 import ReactDOM from "react-dom/client";
 import HomePage from "@/components/pages/HomePage";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, useNavigate, useParams } from "react-router-dom";
 import MainLayout from "@/components/layouts/MainLayout";
 import ErrorPage from "@/components/pages/ErrorPage";
 import About from "@/components/pages/AboutPage";
@@ -21,7 +21,24 @@ import IGVC from "@/components/pages/committees/IGVC";
 import Robomaster from "@/components/pages/committees/Robomaster";
 import Robotathon from "@/components/pages/committees/Robotathon";
 import VexU from "@/components/pages/committees/VexU";
+import { useEffect } from "react";
 
+
+const HtmlPageHandler = () => {
+  const { pageName, committeeName } = useParams();
+  const navigate = useNavigate();
+
+  // Use an effect to navigate to the correct path without ".html"
+  useEffect(() => {
+    if (committeeName) {
+      navigate(`/committees/${committeeName}`, { replace: true });
+    } else {
+      navigate(`/${pageName}`, { replace: true });
+    }
+  }, [pageName, navigate]);
+
+  return null; // Render nothing since we're redirecting
+};
 
 // TODO where do i put utilities
 const range = (start, end) => Array.from({ length: end - start + 1 }, (_, i) => start + i);
@@ -96,8 +113,17 @@ const router = createBrowserRouter([
         path: "/resources",
         element: <Resources />,
       },
+      // Catch-all for .html routes and map to HtmlPageHandler
+      {
+        path: ":pageName.html",
+        element: <HtmlPageHandler />,
+      },
+      {
+        path: "/committees/:committeeName.html",
+        element: <HtmlPageHandler />,
+      },
       // because router v6 doesn't support regex, this makes individual routes for every post from 2015 to now (only tested in 2024 as of writing this)
-    ].concat(range(2015, new Date().getFullYear()).map((i) => ({ path: `/${i}/*`, element: <Blog year={i}/> }))),
+    ].concat(range(2015, new Date().getFullYear()).map((i) => ({ path: `/${i}/*`, element: <Blog year={i} /> }))),
   },
 ]);
 
